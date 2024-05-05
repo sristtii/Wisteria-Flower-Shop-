@@ -4,7 +4,7 @@
 This repository contains the code for a simple yet interactive and responsive website for the Wisteria Flower Shop. The website is built using HTML, CSS, and JavaScript, making it suitable for beginners to understand and modify. The website features multiple pages, including a homepage, products, a contact form, and an about us section, providing users with comprehensive information about the flower shop and its offerings.
 
 ## Link
-[View Website](https://wisteriiaa.netlify.app/){:target="_blank"}
+<a href="https://wisteriiaa.netlify.app/" target="_blank">View Website</a>
 
 ### Features
 Our website boasts a responsive design, ensuring seamless browsing across devices. Interactive elements like image sliders and form validation enhance engagement. With multiple pages providing detailed shop information, navigation is a breeze. Modern CSS styling adds visual appeal, reflecting the beauty of flowers. The well-commented code makes customization effortless for beginners.
