@@ -10,10 +10,10 @@ HTML5
 CSS3
 JavaScript
 ###Setup Instructions###
-Clone the repository to your local machine using git clone.
-Open the project directory in your preferred code editor.
-Launch the index.html file in a web browser to view the website locally.
-Modify the code as needed to customize the website for your own flower shop or business.
+1.Clone the repository to your local machine using git clone.
+2.Open the project directory in your preferred code editor.
+3.Launch the index.html file in a web browser to view the website locally.
+4.Modify the code as needed to customize the website for your own flower shop or business.
 ###Credits###
 This website template was created by sristi [me] as a beginner project to practice HTML, CSS, and JavaScript skills. Feel free to use, modify, and distribute the code according to the terms of the license.
 ###License###
