@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="x-icon" href="images&videos/tuliplogo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisteria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="hero">
+    <video autoplay loop muted plays-inline class="backvideo">
+      <source src="images&videos/flowers.mp4" type="video/mp4">
+    </video>
+
+
+    <nav>
+      <a href="#"><img src="images&videos/tuliplogo.png" class="logo"></a>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#viewflowers" id="scrollToBottom">VIEW FLOWERS</a></li>
+        <li><a href="#aboutus">ABOUT US</a></li>
+        <li><a href="#contactme">CONTACT ME</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <h1>Buy Yourself Flowers</h1>
+      <a href="#">Explore</a>
+    </div>
+  </div>
+  <div class="gallary-wrap" id="viewflowers">
+    <img src="images&videos/less-than-64.png" id="backbut">
+    <div class="gallary">
+      <div>
+        <span><img src="images&videos/pink flower.jpg">
+          <p>Pink Tulip</p>
+        </span>
+        <span><img src="images&videos/small tulips.jpg">
+          <p>PastelMix Tulip</p>
+        </span>
+        <span><img src="images&videos/stary nyt flower.jpg">
+          <p>Starry Night</p>
+        </span>
+      </div>
+      <div>
+        <span><img src="images&videos/pink white flower.jpg">
+          <p>Pink & White</p>
+        </span>
+        <span><img src="images&videos/sunflower.jpg">
+          <p>Beautiful Sunflowers</p>
+        </span>
+        <span><img src="images&videos/blueflower.jpg">
+          <p>Baby's Breath</p>
+        </span>
+      </div>
+    </div>
+    <img src="images&videos/more-than-64.png" id="nextbut">
+  </div>
+  <div class="about-us">
+    <div class="main-img">
+      <img src="images&videos/shop flower.jpg" alt="flower-shop">
+    </div>
+    <div class="text" id="aboutus">
+      <h3>
+        About us
+      </h3>
+      <h1>
+        Gift Yourself Flowers!!<br>Most vibrant flowers from trusted growers
+      </h1>
+      <hr>
+      <p>Welcome to Wisteria, your home for beautiful flowers since 2004 in Italy. From weddings to wellness, our floral
+        arrangements convey emotions and create memories. Our experienced florists will assist you in selecting the
+        perfect bouquet. Visit us today and immerse yourself in the beauty of blossoms.</p>
+      <div class="lasttext">
+        <div class="text1">
+          <h3>500+</h3>
+          <h5>HappyCustomers</h5>
+        </div>
+        <div class="text2">
+          <h3>1k+</h3>
+          <h5>Different Flowers</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contactme" id="contactme">
+    <form action="https://api.web3forms.com/submit" method="POST" class="left-contact">
+      <div class="contactlefttitle">
+        <h2>Wave a Hi!</h2>
+        <hr>
+      </div><input type="hidden" name="access_key" value="af6e4422-78e4-489a-9d8c-6bccce8c7d52">
+      <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+      <input type="email" name="email" placeholder="Your Email" class="contact-input" required>
+      <textarea name="message" placeholder="Your Message [This works so say hi]" class="contact-input"
+        required></textarea>
+      <button type="submit">Submit→</button>
+    </form>
+    <div class="rightcontact">
+      <img src="images&videos/avatar.jpg" alt="avatar">
+    </div>
+  </div>
+  <div class="footer">
+    <div class="home"><a href="#"><img src="images&videos/icons8-home-24.png"></a></div>
+    <div class="in"><a href="https://www.linkedin.com/in/sristi-thanumalya-gc-817863293" target="_blank">Linked_in</a>
+    </div>
+    <div class="Made">Made in India</div>
+  </div>
+  <script>
+
+    let scrollContainer = document.querySelector(".gallary");
+    let backbut = document.getElementById("backbut");
+    let nextbut = document.getElementById("nextbut");
+    nextbut.addEventListener("click", () =>
+    {
+      scrollContainer.style.scrollBehavior = "smooth";
+      scrollContainer.scrollLeft += 400;
+    });
+    backbut.addEventListener("click", () =>
+    {
+      scrollContainer.style.scrollBehavior = "smooth";
+      scrollContainer.scrollLeft -= 400;
+    });
+  </script>
+</body>
+
+</html>
